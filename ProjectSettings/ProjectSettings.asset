@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  productGUID: 273c1bb1a0076c045a6de646b1e4f6b6
+  productGUID: 91f773d7fb76b8f4598b6fbdca9c440e
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
@@ -461,8 +461,9 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
-  cloudProjectId: 0858f8b2-92a3-4cc6-9ede-b64d3b631b0b
-  projectName: LandmARk Lens
+  cloudServicesEnabled:
+    UNet: 1
+  cloudProjectId: b32f46df-4ac5-466d-b07e-8f06f3630ab6
+  projectName: LandmARk Lens (1)
   organizationId: joony0123
   cloudEnabled: 0
