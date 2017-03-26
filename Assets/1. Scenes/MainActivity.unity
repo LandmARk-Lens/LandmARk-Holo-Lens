@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872692, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1105,6 +1105,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wikiText: {fileID: 50217972}
+--- !u!114 &668840123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 668840119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b08d88547a96e1842888e5765e417b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &668840129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1580,7 +1591,7 @@ Prefab:
     - target: {fileID: 224261980077269544, guid: 8a10324867f586f4e8596eaed193183f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -35.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224233165350084576, guid: 8a10324867f586f4e8596eaed193183f,
         type: 2}
@@ -1600,7 +1611,7 @@ Prefab:
     - target: {fileID: 224233165350084576, guid: 8a10324867f586f4e8596eaed193183f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -35.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224014289001954032, guid: 8a10324867f586f4e8596eaed193183f,
         type: 2}
@@ -1620,7 +1631,7 @@ Prefab:
     - target: {fileID: 224014289001954032, guid: 8a10324867f586f4e8596eaed193183f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -35.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224236201510142834, guid: 8a10324867f586f4e8596eaed193183f,
         type: 2}
@@ -1640,7 +1651,7 @@ Prefab:
     - target: {fileID: 224236201510142834, guid: 8a10324867f586f4e8596eaed193183f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -35.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224703586416089926, guid: 8a10324867f586f4e8596eaed193183f,
         type: 2}
@@ -1660,7 +1671,7 @@ Prefab:
     - target: {fileID: 224703586416089926, guid: 8a10324867f586f4e8596eaed193183f,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -35.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224265214518696652, guid: 8a10324867f586f4e8596eaed193183f,
         type: 2}
