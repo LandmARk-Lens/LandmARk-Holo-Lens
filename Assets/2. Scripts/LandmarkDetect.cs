@@ -72,16 +72,16 @@ public class LandmarkDetect : MonoBehaviour
             StartCoroutine(WaitForGeolocationRequest(new WWW(url)));
 
             //Only deal with panel stuff if a landmark has actually been detected
-            /*if (landmarkName != null)
+            if (landmarkName != null)
             {
-                InstantiatePanels(landmarkName, landmarkLat, landmarkLng);
+                //InstantiatePanels(landmarkName, landmarkLat, landmarkLng);
                 userFeedbackText.text = "Landmark Detected!";
 
             }
             else
             {
                 userFeedbackText.text = "No Landmark Detected";
-            }*/
+            }
         }
         else
         {
